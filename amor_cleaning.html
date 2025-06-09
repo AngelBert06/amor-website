@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cleaning Services | Amor Dei</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+       }
+		nav a {
+  position: relative;
+  padding-bottom: 4px;
+  transition: color 0.3s ease;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #5c6ac4; /* Indigo shade */
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+nav a:hover {
+  color: #5c6ac4; /* Indigo shade */
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
+
+  <!-- Header -->
+ <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex items-center justify-between p-4 md:p-6">
+       <a class="text-2xl font-bold text-gray-700 hover:text-gray-700" href="home.html">
+  Amor Dei Cleaning &amp; Ironing
+</a>
+  <nav class="hidden md:flex space-x-8 font-semibold text-gray-700">
+  <a class="hover:text-gray-400 transition flex items-center gap-1" href="index.html">
+    <i class="fas fa-home"></i> Home
+  </a>
+  <a class="hover:text-gray-400 transition flex items-center gap-1" href="amor_cleaning.html">
+    <i class="fas fa-broom"></i> Cleaning
+  </a>
+  <a class="hover:text-gray-400 transition flex items-center gap-1" href="amor_ironing.html">
+    <i class="fas fa-tshirt"></i> Ironing
+  </a>
+</nav>
+
+       <div class="md:hidden">
+     <button aria-label="Toggle menu" class="focus:outline-none text-gray-700" id="menu-btn">
+      <i class="fas fa-bars fa-lg"></i>
+     </button>
+    </div>
+   </div>
+   <nav class="hidden bg-white shadow-md md:hidden" id="mobile-menu">
+     <a class="hover:text-gray-400 transition flex items-center gap-1" href="index.html">
+    <i class="fas fa-home"></i> Home
+  </a>
+  <a class="hover:text-gray-400 transition flex items-center gap-1" href="amor_cleaning.html">
+    <i class="fas fa-broom"></i> Cleaning
+  </a>
+  <a class="hover:text-gray-400 transition flex items-center gap-1" href="amor_ironing.html">
+    <i class="fas fa-tshirt"></i> Ironing
+  </a>
+   </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow">
+    <section class="relative bg-indigo-600 text-white">
+      <img src="main.jpeg" class="w-full h-60 md:h-96 object-cover brightness-75" alt="Cleaning Service" />
+      <div class="absolute inset-0 flex flex-col justify-center items-center px-6 text-center">
+        <h1 class="text-3xl md:text-5xl font-extrabold drop-shadow-lg">Professional Cleaning Services</h1>
+        <p class="text-lg md:text-2xl drop-shadow-md">Experience spotless spaces with our reliable cleaning solutions.</p>
+       <a class="mt-6 inline-block bg-white text-gray-700 font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-gray-50 transition 
+           transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out" href="amor_cleaning.html#contact">
+		     <i class="fas fa-phone-alt"></i>
+  Call for Booking
+</a>
+
+      </div>
+    </section>
+    <section class="container mx-auto px-6 py-12 md:py-20">
+      <div class="max-w-3xl mx-auto bg-white shadow-xl rounded-2xl border border-indigo-700 p-8 text-center">
+        <h2 class="text-3xl font-bold text-gray-700 mb-4"><i class="fas fa-broom mr-2"></i>Cleaning Service</h2>
+        <p class="mb-4 text-gray-700">We deliver top-quality residential and commercial cleaning. Our expert cleaners ensure every corner shines and sparkles.</p>
+        <p class="text-gray-700 font-bold text-xl">£25 per hour</p>
+      </div>
+    </section>
+	<section class="container mx-auto px-6 py-12 max-w-4xl">
+  <div class="bg-white rounded-2xl shadow-xl border border-indigo-200 p-8 text-center">
+    <h2 class="text-3xl font-bold text-gray-700 mb-6 flex items-center justify-center gap-2 text-center">
+  <i class="fas fa-search text-gray-700"></i> About Our Cleaning Services
+</h2>
+
+    <p class="text-gray-700 text-lg leading-relaxed">
+      At <span class="font-semibold text-gray-700">Amor Dei Cleaning Services</span>, we provide professional residential and commercial cleaning tailored to your needs. Our expert team uses high-quality, eco-friendly products to ensure your space is not only spotless but also safe and healthy. Whether you need regular home cleaning, deep cleaning, or office maintenance, we deliver reliable, thorough, and affordable service with a satisfaction guarantee. Trust us to keep your environment fresh, clean, and welcoming every time.
+    </p>
+  </div>
+</section>
+
+	<section class="bg-white py-16">
+  <div class="container mx-auto px-6 max-w-5xl">
+    <h2 class="text-3xl font-bold text-gray-700 mb-12 text-center">Why Choose Our Cleaning Service?</h2>
+    <div class="grid md:grid-cols-2 gap-10 text-center">
+      <div class="p-6 border border-indigo-400 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out space-y-4">
+        <div class="text-indigo-600 text-4xl"><i class="fas fa-broom text-gray-700"></i></div>
+        <h3 class="text-xl font-semibold text-gray-800">Thorough Cleaning</h3>
+        <p class="text-gray-600">Our team pays attention to every detail, leaving your home or office spotless and fresh.</p>
+      </div>
+      <div class="p-6 border border-indigo-400 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out space-y-4">
+        <div class="text-indigo-600 text-4xl"><i class="fas fa-clock text-gray-700"></i></div>
+        <h3 class="text-xl font-semibold text-gray-800">Punctual & Reliable</h3>
+        <p class="text-gray-600">We respect your time. Our cleaners arrive promptly and finish the job on schedule.</p>
+      </div>
+      <div class="p-6 border border-indigo-400 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out space-y-4">
+        <div class="text-indigo-600 text-4xl"><i class="fas fa-leaf text-gray-700"></i></div>
+        <h3 class="text-xl font-semibold text-gray-800">Eco-Friendly Products</h3>
+        <p class="text-gray-600">We use environmentally safe cleaning supplies that are tough on dirt but gentle on your surroundings.</p>
+      </div>
+      <div class="p-6 border border-indigo-400 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out space-y-4">
+        <div class="text-indigo-600 text-4xl"><i class="fas fa-thumbs-up text-gray-700"></i></div>
+        <h3 class="text-xl font-semibold text-gray-800">Satisfaction Guaranteed</h3>
+        <p class="text-gray-600">Your happiness is our priority. If you’re not satisfied, we’ll make it right at no extra cost.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Gallery Section -->
+      <section class="bg-indigo-50 py-12">
+      <div class="container mx-auto px-6 max-w-5xl">
+        <h2 class="text-3xl font-bold text-gray-700 mb-8 text-center">Gallery</h2>
+
+        <div class="overflow-hidden relative w-full h-64 md:h-96 rounded-lg shadow-lg" id="carousel">
+          <div id="carousel-inner" class="flex transition-transform duration-700 ease-in-out">
+            <img src="img1.jpg" class="w-full h-64 md:h-96 object-cover flex-shrink-0" alt="Gallery Image 1" />
+            <img src="img2.jpg" class="w-full h-64 md:h-96 object-cover flex-shrink-0" alt="Gallery Image 2" />
+            <img src="img3.jpg" class="w-full h-64 md:h-96 object-cover flex-shrink-0" alt="Gallery Image 3" />
+          </div>
+        </div>
+
+        <div class="flex justify-center mt-4 space-x-4">
+          <button id="prevBtn" class="bg-indigo-600 text-white rounded-full p-2 hover:bg-indigo-700"><i class="fas fa-chevron-left"></i></button>
+          <button id="nextBtn" class="bg-indigo-600 text-white rounded-full p-2 hover:bg-indigo-700"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact Section -->
+   <section class="container mx-auto px-6 py-12 md:py-20 max-w-3xl" id="contact">
+    <h2 class="text-3xl font-bold text-gray-700 mb-8 text-center">
+	  <i class="fas fa-phone-alt"></i>
+     Contact Us
+    </h2>
+    <div class="bg-white rounded-lg shadow-lg p-8 space-y-6">
+     
+     <div class="flex flex-col space-y-4 text-gray-700">
+      <div class="flex items-center space-x-4">
+       <i class="fas fa-user text-gray-700 text-xl w-6"></i>
+       <span>Sheila Lucena</span>
+      </div>
+      <div class="flex items-center space-x-4">
+       <i class="fas fa-phone-alt text-gray-700 text-xl w-6"></i>
+       <a class="hover:text-indigo-700 transition" href="tel:07543075759">07543 075759</a>
+      </div>
+      <div class="flex items-center space-x-4">
+       <i class="fas fa-envelope text-gray-700 text-xl w-6"></i>
+       <a class="hover:text-indigo-700 transition" href="mailto:sheelalu75@icloud.com">sheelalu75@icloud.com</a>
+      </div>
+      <div class="flex items-center space-x-4">
+       <i class="fas fa-envelope-open-text text-gray-700 text-xl w-6"></i>
+       <a class="hover:text-indigo-700 transition" href="mailto:info@amordeilondon.com">info@amordeilondon.com</a>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+
+  <!-- Footer -->
+   <footer class="bg-indigo-700 text-indigo-100 py-8 mt-auto">
+    <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <p class="text-sm md:text-base text-center md:text-left">© 2024 Amor Dei Cleaning and Ironing Services. All rights reserved.</p>
+      <div class="flex space-x-6 mt-4 md:mt-0">
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.getElementById('menu-btn').addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+
+    // Carousel functionality
+    const inner = document.getElementById("carousel-inner");
+    const prev = document.getElementById("prevBtn");
+    const next = document.getElementById("nextBtn");
+    const total = inner.children.length;
+    let current = 0;
+
+    function updateCarousel() {
+      inner.style.transform = `translateX(-${current * 100}%)`;
+    }
+
+    next.addEventListener("click", () => {
+      current = (current + 1) % total;
+      updateCarousel();
+    });
+
+    prev.addEventListener("click", () => {
+      current = (current - 1 + total) % total;
+      updateCarousel();
+    });
+
+    setInterval(() => {
+      current = (current + 1) % total;
+      updateCarousel();
+    }, 5000);
+  </script>
+</body>
+</html>
